@@ -32,28 +32,28 @@ for `count: 200`:
 - `steepness: number`: The steepness of the easing curve. See https://www.desmos.com/calculator/sheh8hflly, play around with the variable `k` and see how it changes the curve. The recommanded minimum is 17, as steepness below 17 results in sudden jumps at the start and end of the animation. Defaults to 17.
 - `direction: boolean`: A string that defines the direction of the transition. Only these values are possible:
 
-    `vp`: Vertical positive
+`vp`: Vertical positive
 
 ![Vertical positive][vp]
 
-    `vn`: Vertical negative
+`vn`: Vertical negative
 
 ![Vertical negative][vn]
 
-    `vm`: Vertical mixed
+`vm`: Vertical mixed
 
 ![Vertical mixed][vm]
 
-    `hp`: Horizontal positive
+`hp`: Horizontal positive
 
 ![Horizontal positive][hp]
 
-    `hn`: Horizontal negative
+`hn`: Horizontal negative
 
 ![Horizontal negative][hn]
 
-    `hm`: Horizontal mixed
-    
+`hm`: Horizontal mixed
+
 ![Horizontal mixed][hm]
 
 - `color: string`: the color of the transition. Defaults to '#000'
