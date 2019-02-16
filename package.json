@@ -1,6 +1,6 @@
 {
   "name": "colorful-transition",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A colorful transition animation for HTML5 canvas",
   "main": "colorful-transition.js",
   "scripts": {
