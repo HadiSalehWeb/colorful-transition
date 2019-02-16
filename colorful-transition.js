@@ -128,4 +128,4 @@ const transition = function (ctx, options) {
 }
 
 // exports = transition;
-export default transition;
+exports = transition;
