@@ -127,4 +127,5 @@ const transition = function (ctx, options) {
     requestAnimationFrame(step);
 }
 
-exports = transition;
+// exports = transition;
+export default transition;
