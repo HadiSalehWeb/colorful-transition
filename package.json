@@ -1,0 +1,19 @@
+{
+  "name": "colorful-transition",
+  "version": "1.0.0",
+  "description": "A colorful transition animation for HTML5 canvas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HadiSalehWeb/colorful-transition.git"
+  },
+  "author": "Hadi Saleh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HadiSalehWeb/colorful-transition/issues"
+  },
+  "homepage": "https://github.com/HadiSalehWeb/colorful-transition#readme"
+}
