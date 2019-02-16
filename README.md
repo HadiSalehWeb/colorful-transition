@@ -3,13 +3,11 @@ A colorful transition animation for HTML5 canvas
 
 ![A colorful nightmare.][ct]
 
-This readme is a work in progress.
-
 ## Usage:
 After downloading colorful-transition.js and including it in you HTML, use it like this:
 
 ```javascript
-colorfulTransition(ctx, options);
+transition(ctx, options);
 ```
 
 ### ctx
@@ -31,19 +29,31 @@ for `count: 200`:
 ![200 rect transition][200ct]
 
 - `duration: number`: The duration of the transition in milliseconds. Defaults to 1000.
-- `steepness: number`: The steepness of the easing curve. See https://www.desmos.com/calculator/sheh8hflly, play around with the variable `k` and see how it changes the curve. The minimum recommanded is 17, as steepness below 17 results in sudden jumps at the start and end of the animation. Defaults to 17.
+- `steepness: number`: The steepness of the easing curve. See https://www.desmos.com/calculator/sheh8hflly, play around with the variable `k` and see how it changes the curve. The recommanded minimum is 17, as steepness below 17 results in sudden jumps at the start and end of the animation. Defaults to 17.
 - `direction: boolean`: A string that defines the direction of the transition. Only these values are possible:
+
     `vp`: Vertical positive
+
 ![Vertical positive][vp]
+
     `vn`: Vertical negative
+
 ![Vertical negative][vn]
+
     `vm`: Vertical mixed
+
 ![Vertical mixed][vm]
+
     `hp`: Horizontal positive
+
 ![Horizontal positive][hp]
+
     `hn`: Horizontal negative
+
 ![Horizontal negative][hn]
+
     `hm`: Horizontal mixed
+    
 ![Horizontal mixed][hm]
 
 - `color: string`: the color of the transition. Defaults to '#000'
