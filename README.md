@@ -30,7 +30,7 @@ for `count: 200`:
 
 - `duration: number`: The duration of the transition in milliseconds. Defaults to 1000.
 - `steepness: number`: The steepness of the easing curve. See https://www.desmos.com/calculator/sheh8hflly, play around with the variable `k` and see how it changes the curve. The recommanded minimum is 17, as steepness below 17 results in sudden jumps at the start and end of the animation. Defaults to 17.
-- `direction: boolean`: A string that defines the direction of the transition. Only these values are possible:
+- `direction: string`: A string that defines the direction of the transition. Only these values are possible:
 
 `vp`: Vertical positive
 
