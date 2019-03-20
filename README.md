@@ -17,8 +17,8 @@ A collection of options that define the transition:
 - `x: number`: the starting x position of the area where the transition will take place. Defaults to 0.
 - `y: number`: the starting y position of the area where the transition will take place. Defaults to 0.
 - `width: number`: the width of the area where the transition will take place. Defaults to ctx.canvas.width.
-- `height: number`: the height of the area where the transition will take place. Ddefaults to ctx.canvas.height.
-- `count: number`: the number strips used in the transition. Defaults to 10
+- `height: number`: the height of the area where the transition will take place. Defaults to ctx.canvas.height.
+- `count: number`: the number of strips used in the transition. Defaults to 10
 
 for example for `count: 2`:
 
